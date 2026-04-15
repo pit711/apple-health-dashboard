@@ -11,7 +11,7 @@ Import the ZIP straight from your iPhone. Get instant visualizations, compare an
 [![Single file](https://img.shields.io/badge/single--file-HTML-blue)](#)
 [![Works offline](https://img.shields.io/badge/works-offline-success)](#)
 
-**🌐 [Live demo](https://pit711.github.io/apple-health-dashboard/)** &nbsp;·&nbsp; [🇩🇪 Deutsche Version](README.de.md) &nbsp;·&nbsp; [Report a bug](https://github.com/pit711/apple-health-dashboard/issues/new?template=bug_report.yml)
+**🌐 [Live demo](https://pit711.github.io/apple-health-dashboard/)** &nbsp;·&nbsp; [Report a bug](https://github.com/pit711/apple-health-dashboard/issues/new?template=bug_report.yml)
 
 </div>
 
