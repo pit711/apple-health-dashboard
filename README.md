@@ -134,6 +134,12 @@ The most useful contributions:
 - Translating the UI to additional languages
 - Bug fixes for edge cases in the XML parser
 
+## Disclaimer
+
+Apple, Apple Health, and HealthKit are trademarks of Apple Inc., registered in the U.S. and other countries. This project is not affiliated with, endorsed by, or associated with Apple Inc.
+
+This tool is not a medical device. Do not make medical decisions based on this data.
+
 ## 📜 License
 
 [MIT](LICENSE) — do whatever you want, no warranty.

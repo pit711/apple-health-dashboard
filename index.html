@@ -6,9 +6,9 @@
 <meta name="theme-color" content="#0a0e14">
 <meta name="description" content="Local-first Apple Health data dashboard. Import your Health export and visualize, compare, and analyze your data — all in your browser.">
 <title>Apple Health Dashboard</title>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js" crossorigin="anonymous"></script>
 <style>
 :root{
   --bg:#0a0e14;
@@ -1849,5 +1849,10 @@ function resetAll(){
   fileInput.value = '';
 }
 </script>
+<div style="max-width:700px;margin:20px auto;padding:16px 20px;font-size:10px;color:#8e8e93;line-height:1.6;text-align:center">
+  <p><strong>Trademark Notice:</strong> Apple, Apple Health, and HealthKit are trademarks of Apple Inc. This app is not affiliated with or endorsed by Apple Inc.</p>
+  <p><strong>Medical Disclaimer:</strong> This tool is not a medical device. Do not make medical decisions based on this data. Always consult a healthcare professional.</p>
+  <p><strong>Privacy:</strong> All data is processed locally in your browser. No data is transmitted to any server. CDN dependencies (Chart.js, JSZip) are loaded from cdn.jsdelivr.net — your IP address may be disclosed to this CDN provider.</p>
+</div>
 </body>
 </html>
